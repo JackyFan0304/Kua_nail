@@ -1,5 +1,5 @@
 <template>
-    <section class="about-me">
+    <section class="about-me" :style="{ height: isMobile ? '50vh' : '100vh' }">
       <div class="about-image">
         <img :src="aboutImage" alt="About Me" />
       </div>
@@ -51,7 +51,6 @@
   <style scoped lang="scss">
   .about-me {
     position: relative;
-    height: 100vh; /* 設置高度為 100vh */
     display: flex; /* 使用 Flexbox 排版 */
     align-items: center; /* 垂直居中對齊 */
     overflow: hidden; /* 隱藏超出內容 */
@@ -59,11 +58,11 @@
     z-index: 2;
     background-color: rgba(255, 255, 224, 0.8); /* 淺黃色背景，帶透明度 */
     backdrop-filter: blur(10px); /* 添加毛玻璃效果 */
-    
+  
     .about-image {
       flex: 1; /* 左側圖片佔據一部分 */
       min-height: 30vh; /* 設置最小高度 */      
-      
+  
       img {
         width: 100%; /* 圖片寬度100% */
         height: auto; /* 自動調整高度 */

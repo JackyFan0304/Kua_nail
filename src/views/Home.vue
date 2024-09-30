@@ -1,6 +1,6 @@
 <template>
-    <div class="hello">
-        <div class="main_intro">
+    <div class="home" id="Home">
+        <div class="title">
             <!-- First Layer -->
 
         </div>

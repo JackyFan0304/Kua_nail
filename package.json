@@ -13,6 +13,7 @@
   "description": "",
   "dependencies": {
     "@vue/compiler-sfc": "^3.5.8",
+    "axios": "^1.7.7",
     "normalize.css": "^8.0.1",
     "vue": "^3.2.13"
   },
@@ -22,7 +23,9 @@
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.2",
     "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.5.0",
+    "html-webpack-plugin": "^5.6.0",
+    "image-webpack-loader": "^8.1.0",
+    "mini-css-extract-plugin": "^2.9.1",
     "sass": "^1.79.3",
     "sass-loader": "^16.0.2",
     "style-loader": "^3.3.3",

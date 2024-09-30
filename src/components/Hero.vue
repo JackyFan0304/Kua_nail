@@ -22,8 +22,7 @@
   };
   </script>
   
-  <style scoped lang="scss">
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap'); /* 引入繁黑體字體 */
+  <style scoped lang="scss">  
   
   .hero-section {
     position: relative;
