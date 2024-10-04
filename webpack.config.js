@@ -60,7 +60,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './public/index.html', // 使用的 HTML 模板
+            template: './doc/index.html', // 使用的 HTML 模板
             filename: 'index.html', // 輸出的 HTML 文件名
             title: 'Kua Nail', // 設置標題
         }),
@@ -74,7 +74,7 @@ module.exports = {
     devServer: {
         static: [
             {
-                directory: path.join(__dirname, 'public'),
+                directory: path.join(__dirname, 'doc'),
             },
             {
                 directory: path.join(__dirname, 'src/assets/images'),
